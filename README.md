@@ -16,7 +16,6 @@ An application created with the new version of Next JS. The purpose of this appl
    - [x] Typescript
    - [x] Redis
    - [x] NextAuth
-   - [x] Redis
    - [x] SWR (useSWR)
 
   #### 🎨 STYLES:
