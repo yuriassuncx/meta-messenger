@@ -1,27 +1,48 @@
-# Next.js + Tailwind CSS Example
+# Meta Messenger 🚀
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![image](https://user-images.githubusercontent.com/104099580/208490466-040e71b7-93fd-4561-ae0e-d231b72908db.png)
+An application created with the new version of Next JS. The purpose of this application is to create an online chat, in which users will log into their facebook account.
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+# 💻 Developing differences...
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- [x] Built with Tailwindcss
+- [x] Responsive Design
 
-## How to use
+# 🚀 Technologies Used
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+  ## FRONT-END:
+   - [x] NextJS v.13
+   - [x] Typescript
+   - [x] Redis
+   - [x] NextAuth
+   - [x] Redis
+   - [x] SWR (useSWR)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+  #### 🎨 STYLES:
+   - [x] TailwindCSS
+ 
+  ## BACK-END:
+   - [X] Upstash
+
+#### 🖥 DEPLOY:
+ - [x] Vercel
+
+# 📋 Installation:
+
+### Server
+
+First, create a new ``.env`` file on the root directory, using the `.env.example` template as base.
+
+After that, to start the server, run:
+```sh
+$ npm run dev
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Web
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+To run the local Vite web client:
+```sh
+$ npm install
+$ npm run dev
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
